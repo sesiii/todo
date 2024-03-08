@@ -1,0 +1,8 @@
+{
+  "name": "sesiii.github.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "FLASK_APP=app.py flask run"
+  }
+}
