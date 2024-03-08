@@ -1,0 +1,198 @@
+:root {
+    --main-bg-color: #f0f0f0;
+    --content-bg-color: #fff;
+    --main-font: "Raleway", Arial, sans-serif;
+    --button-color: #333;
+    --button-hover-color: #444;
+    --table-color: #212529;
+    --border-color: #dee2e6;
+    --hover-bg-color: rgba(0, 0, 0, 0.075);
+}
+
+#footer {
+    padding: 10px 24px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fallback for browsers that don't support backdrop-filter */
+    backdrop-filter: blur(2px);
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color);
+}
+
+.w3-content {
+    max-width: 1500px;
+    margin: auto;
+    background-color: var(--content-bg-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.w3-container {
+    padding: 20px;
+}
+
+.div-class {
+    text-align: center;
+}
+
+.w3-button {
+    color: #fff;
+    background-color: var(--button-color);
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.w3-button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--table-color);
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border: 1px solid var(--border-color);
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.table tbody+tbody {
+    border-top: 2px solid var(--border-color);
+}
+
+.table tbody tr:hover {
+    color: var(--table-color);
+    background-color: var(--hover-bg-color);
+}
+.w3-content {
+    max-width: 1500px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur */
+    padding: 20px;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animate__slideInUp {
+    animation-name: slideInUp;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+footer p {
+    font-family: 'Caveat', cursive;
+    font-size: 1.25em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#content {
+    transition: transform 0.3s ease-in-out;
+}
+
+#content:focus {
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url("https://imgproxy.nanxiongnandi.com/Dkc5zgDV44v5_vfvxgYCVK2alRfBZ8JVFw0a1dLdFVQ/w:1280/aHR0cHM6Ly9pbWcu/bmFueGlvbmduYW5k/aS5jb20vMjAyNDAz/L1RhdGVMaWdodFVw/LmpwZw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
